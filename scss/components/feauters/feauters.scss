@@ -1,0 +1,38 @@
+.feauters{
+  background-size: cover;
+  background-image: url("./../img/feauters.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+  .feauters-title{
+    padding-top: 140px;
+    padding-bottom: 90px;
+        text-align: center;
+        .sub-title {
+          margin: 15px 0;
+          color: $main-site-color;
+        }
+        .title {
+          margin-bottom: 40px;
+
+        }
+  }
+
+  .feauters-content{
+    display: flex;
+    padding-bottom: 140px;
+      .feauters-item {
+        text-align: center;
+        img {
+          margin: 0 auto;
+          margin-bottom: 30px;
+        }
+
+      }
+
+  }
+
+
+}

@@ -1,0 +1,105 @@
+.trynow {
+
+  background-color: #323969;
+
+  .trynow-title {
+    text-align: center;
+    padding: 90px 0;
+
+      .sub-title {
+        margin: 15px 0;
+        color: $main-site-color;
+      }
+
+
+      .title {
+        color: $second-site-color;
+
+      }
+
+
+
+
+  }
+
+  .trynow-form  {
+
+    form {
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .trynow-form-item  {
+        padding-top: 20px;
+        input {
+          width: 100%;
+          outline: none;
+          padding: 20px 40px 20px 30px ;
+          border-radius: 5px;
+          background-color: #464c77;
+          color: $second-site-color;
+          border-color: $second-site-color;
+          border: 1px solid;
+
+        }
+
+    }
+
+      .trynow-form-trial {
+
+        position: relative;
+        height: 100px;
+      .trial {
+        position: absolute;
+        bottom: 100px;
+        img {
+
+        }
+      }
+
+      .trynow-form-btn {
+        padding-top: 20px;
+        position: relative;
+
+
+
+        button {
+          width: 100%;
+          text-align: center;
+          text-transform: uppercase;
+          padding: 21px 60px;
+          text-decoration: none;
+          background-color: $main-site-color;
+          color: $second-site-color;
+          border-radius: 5px;
+          border: none;
+          align-items: center;
+
+        }
+
+
+      }
+      }
+
+    }
+
+  }
+
+  .trynow-footer {
+    padding-top: 60px;
+    padding-bottom: 90px;
+    text-align: center;
+
+
+      p {
+
+        color: $fourth-site-color;
+      }
+
+
+
+  }
+
+
+}

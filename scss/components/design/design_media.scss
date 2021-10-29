@@ -1,0 +1,44 @@
+@media (max-width: $breakpointLg) {
+
+
+  .design{
+    background-size: 45% 100%;
+
+
+    .design-content {
+      padding: 80px 0;
+    }
+
+
+
+  }
+
+
+
+
+
+
+
+}
+@media (max-width: $breakpointMd) {
+
+
+  .design{
+    background-size: 50% 100%;
+  }
+
+
+
+
+
+
+
+}
+@media (max-width: $breakpointSm) {
+  .design{
+    background-size: 100% 100%;
+  }
+
+
+
+}

@@ -1,0 +1,41 @@
+.responsive {
+
+  background-image: url("./../img/triangle_mac.png");
+  background-repeat: no-repeat;
+  background-position-y: -180px;
+
+    .responsive-mac{
+     padding: 100px 0;
+
+  img {
+    margin: 0 auto;
+  }
+
+}
+    .responsive-content{
+      padding-bottom: 100px;
+
+     .responsive-title {
+
+
+       .sub-title {
+          margin: 15px 0;
+          color: $main-site-color;
+        }
+
+
+        .title {
+          margin-bottom: 40px;
+
+        }
+
+        p{
+          margin-bottom: 40px ;
+
+        }
+
+}
+
+    }
+
+}

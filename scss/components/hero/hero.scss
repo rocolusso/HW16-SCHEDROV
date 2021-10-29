@@ -1,0 +1,64 @@
+.hero {
+
+  background-image: url("./../img/hero.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+
+  .row{
+     height: 100vh;
+
+
+
+    .col-lg-6 {
+      text-align: center;
+      h1 {
+        color: $second-site-color;
+      }
+
+
+      .play-btn{
+        margin-top: 40px;
+        a {
+          img {
+            margin: 0 auto;
+          }
+        }
+
+      }
+
+
+
+      .try-btn {
+        margin-top: 60px;
+        a{
+          display: inline-block;
+          text-transform: uppercase;
+          padding: 20px 50px;
+          text-decoration: none;
+          background-color: $main-site-color;
+          color: $second-site-color;
+          border-radius: 5px;
+
+        }
+
+
+
+      }
+
+      p {
+        margin-top: 30px;
+        color: $second-site-color;
+      }
+
+
+
+    }
+
+
+  }
+
+
+
+
+}
